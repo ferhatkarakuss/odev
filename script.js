@@ -24,6 +24,6 @@ function nextSlide() {
   showSlide(currentSlide + 1);
 }
 
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 3000);
 
 // Slider 2
