@@ -1,0 +1,29 @@
+let currentSlide = 0;
+const slides = document.querySelectorAll(".slider img");
+const totalSlides = slides.length;
+
+function showSlide(index) {
+  if (index < 0) {
+    currentSlide = totalSlides - 1;
+  } else if (index >= totalSlides) {
+    currentSlide = 0;
+  } else {
+    currentSlide = index;
+  }
+
+  const translation = -currentSlide * 100 + "%";
+  document.querySelector(".slider").style.transform =
+    "translateX(" + translation + ")";
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+setInterval(nextSlide, 4000);
+
+// Slider 2

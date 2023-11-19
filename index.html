@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>firma.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="container">
+    <header class="container mt-[10px] mx-[40px]">
+      <div class="flex h-[76px] items-center">
+        <div class="logo">
+          <img class="w-[80px] h-[80px]" src="img/pngwing 1.png" alt="" />
+        </div>
+
+        <div class="ml-auto">
+          <ul class="flex text-white text-lg mr-36">
+            <li class="ml-4"><a href="">Kurumsal</a></li>
+            <li class="ml-4"><a href="">Aktiviteler</a></li>
+            <li class="ml-4"><a href="">Projeler</a></li>
+            <li class="ml-4"><a href="">Haberler</a></li>
+            <li class="ml-4"><a href="">İnsan Kaynakarı</a></li>
+            <li class="ml-4"><a href="">İletişim</a></li>
+            <li class="ml-4">|</li>
+            <li class="ml-4 pt-[3px]">
+              <img src="img/global.png" alt="" />
+            </li>
+            <li class="ml-2">TR</li>
+            <li class="mt-3 ml-2">
+              <img src="img/Vector 22.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="[clip-path:polygon(0%_0%,100%_0%,100%_100%)] bg-[#E24413] w-3/4 h-[800px] absolute -z-50 top-0 right-0"
+      ></div>
+
+      <div class="w-[1440px] h-[650px] bg-white overflow-hidden">
+        <div class="relative w-full m-auto">
+          <div class="slider flex">
+            <img
+              class="w-full h-[750px] object-cover"
+              src="img/Rectangle 5366.png"
+              alt="Image 1"
+            />
+            <img
+              class="w-full h-[750px] object-cover"
+              src="img/Rectangle 5366.png"
+              alt="Image 2"
+            />
+            <img
+              class="w-full h-[750px] object-cover"
+              src="img/Rectangle 5366.png"
+              alt="Image 3"
+            />
+          </div>
+          <button
+            class="absolute top-[80px] left-[100px] pointer"
+            id="prevBtn"
+            onclick="prevSlide()"
+          >
+            <img src="img/Vector 3.png" alt="" />
+          </button>
+          <button
+            class="absolute top-[80px] left-[200px] pointer"
+            id="nextBtn"
+            onclick="nextSlide()"
+          >
+            <img src="img/Vector 4.png" alt="" />
+          </button>
+        </div>
+
+        <div class="absolute w-[450px] top-[210px] ml-24">
+          <h2 class="text-5xl leading-[60px]">
+            Geleceğin inşası, <b>Çevre Dostu Adımlar.</b>
+          </h2>
+          <p class="mt-8">
+            Sürdürülebilirlik ilkesini benimseyerek, çevre dostu inşaat
+            adımlarıyla geleceği inşa ediyoruz.
+          </p>
+          <button class="w-[178px] h-[48px] bg-[#E24413] text-white mt-6">
+            <p>Projelerimiz</p>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="mt-16 mx-[40px] flex w-[1440px]">
+          <div><img class="h-[550px]" src="img/Group 19585.png" alt="" /></div>
+          <div class="w-[900px] absolute left-[700px] mt-5">
+            <h2 class="text-5xl text-[#E24413] leading-[60px]">
+              Geçmişten Geleceğe İnşa Gücü:
+            </h2>
+            <h2
+              class="text-5xl text-[#E24413] leading-[60px] text-right mr-36 mt-4"
+            >
+              <b>1996'dan Beri</b>
+            </h2>
+            <div class="w-[500px] mt-12 ml-72">
+              <p class="text-lg">
+                1996 yılında İstanbul/Türkiye'de kurulan Firma Yapı,
+                uluslararası inşaat sektöründe kısa sürede saygın bir yer
+                edinmiştir.
+              </p>
+              <p class="text-lg mt-8">
+                Geçmişten bugüne uzanan köklü deneyimi ve gelecek odaklı
+                yaklaşımıyla, müşterilerimize en yüksek kalitede hizmet sunmaya
+                ve çevreye değer katmaya adanmış bir yapı şirketiyiz.
+              </p>
+              <button
+                class="w-[178px] border border-2 border-[#E24413] text-[#E24413] p-2 mt-8"
+              >
+                Bizi Tanıyın
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex mt-4">
+        <div class="mt-16 mx-[40px] text-center w-[50%]">
+          <div class="absolute left-0">
+            <img src="img/Group 195655.png" alt="" />
+          </div>
+
+          <div class="w-36 text-left ml-[53%]">
+            <h2 class="text-[#E24413] text-4xl mt-8">+23</h2>
+            <p>Yılların Tecrübesi</p>
+          </div>
+          <div class="w-36 text-left ml-[53%]">
+            <h2 class="text-[#E24413] text-4xl mt-16">3 Kıta</h2>
+            <p>15 Ülke</p>
+          </div>
+          <div class="w-36 text-left ml-[53%]">
+            <h2 class="text-[#E24413] text-4xl mt-16">%80</h2>
+            <p>Uluslarası Projeler</p>
+          </div>
+        </div>
+        <div class="w-[700px] mr-4">
+          <img src="img/Rectangle 5375.png" alt="" />
+        </div>
+      </section>
+      <section class="bg-[#1e1e1e] w-full h-[800px] mt-5 flex">
+        <div class="">
+          <img class="h-[720px] m-[40px]" src="img/Rectangle 5376.png" alt="" />
+        </div>
+
+        <div class="w-[620px] h-[50%] mx-auto">
+          <h2
+            class="text-5xl text-[#E24413] bg-gradient-to-r text-transparent bg-clip-text bg-gradient-to-r from-[#E24413] to-[#FFB76F] mt-10"
+          >
+            Firma Yapı Projeleri
+          </h2>
+          <div class="relative top-5">
+            <div class="flex absolute">
+              <button><img src="img/Vector 333.png" alt="" /></button>
+              <button>
+                <img class="ml-4" src="img/Vector 4.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <h3 class="text-white text-2xl leading-10 mt-16">
+            Radisson Blu Hotel, <br />
+            <b>Havaalanı Abidjan</b>
+          </h3>
+          <p class="text-gray-400 mt-8">
+            Bu proje Abidjan, Fildişi Sahili'nde yer almaktadır. 261 oda ve
+            Genel Alanlar dahil olmak üzere 31.000 m2'lik binanın beton ve MEP
+            işleri hariç tüm ticari işleri.
+          </p>
+          <button class="w-[178px] h-[48px] bg-[#E24413] text-white mt-6">
+            <p>
+              İncele
+              <i class="fa-solid fa-greater-than text-[12px] ml-1"></i>
+            </p>
+          </button>
+          <button
+            class="w-[178px] h-[48px] border-2 ml-4 border-gray-500 text-white mt-6"
+          >
+            <p>
+              Tüm Projeler
+              <i class="fa-solid fa-greater-than text-[12px] ml-1"></i>
+            </p>
+          </button>
+
+          <div class="w-[500px] h-[440px]">
+            <div>
+              <img
+                class="w-[400px] h-[320px] mt-8"
+                src="img/Rectangle 5377.png"
+                alt=""
+              />
+            </div>
+            <div class="relative">
+              <div class="absolute top-[-40px]">
+                <p class="text-gray-400 bg-[#1e1e1e] p-2">
+                  Marriott Hotel Kapadokya Nevşehir
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mt-0 mx-[40px]">
+          <div>
+            <div class="flex">
+              <div class="w-[380px] h-[370px] flex ml-48 pt-8">
+                <div class="mx-auto my-auto">
+                  <img class="mx-auto" src="img/ahsaplogo011 1.png" alt="" />
+                  <button
+                    class="w-[350px] h-[48px] border border-2 border-[#E24413] text-[#E24413] mt-12"
+                  >
+                    <i class="fa-solid fa-globe"></i> Websitesini Ziyaret Et
+                  </button>
+                </div>
+              </div>
+              <div class="w-[360px] h-[350px] ml-8 mt-5">
+                <h2 class="text-2xl text-[#E24413] mb-4 pt-4">Ahşap</h2>
+                <p class="text-base">
+                  1982 yılında kurulan AHŞAP Ürün Sanayi A.Ş. iç dekorasyon
+                  taahhüt firmasıdır. İstanbul'daki fabrikamız bünyesinde özel
+                  imalat sabit ve hareketli mobilya, dekoratif aydınlatma, cam
+                  ve ahşap işleri yapmaktayız.
+                </p>
+              </div>
+              <img src="img/Group 196055.png" alt="" />
+            </div>
+          </div>
+          <div class="mt-8 mx-[40px]">
+            <div class="flex">
+              <div class="w-[380px] h-[370px] flex ml-52">
+                <div class="mt-5 mr-5">
+                  <h2 class="text-2xl text-gray-500 mb-4">Körfez</h2>
+                  <p class="text-base">
+                    1982 yılında kurulan AHŞAP Ürün Sanayi A.Ş. iç dekorasyon
+                    taahhüt firmasıdır. İstanbul'daki fabrikamız bünyesinde özel
+                    imalat sabit ve hareketli mobilya, dekoratif aydınlatma, cam
+                    ve ahşap işleri yapmaktayız.
+                  </p>
+                </div>
+              </div>
+              <div class="w-[360px] h-[350px] mr-24">
+                <img src="img/korfezproje-v11 1.png" alt="" />
+              </div>
+
+              <div class="w-[415px]">
+                <h2 class="text-[#E24413] text-5xl ml-8 leading-[60px]">
+                  İlerlemenin Gücü, Şirketler Grubuyla Bir Adım Önde
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-36">
+        <div class="mx-[40px] flex">
+          <h2 class="text-5xl text-[#E24413]">Bizden <b>Haberler</b></h2>
+          <button
+            class="w-[178px] border border-2 border-[#E24413] text-[#E24413] p-2 text-base ml-auto mr-40"
+          >
+            Tümünü Gör <i class="fa-solid fa-greater-than text-sm"></i>
+          </button>
+        </div>
+
+        <div class="flex relative">
+          <div>
+            <img
+              class="w-[380px] ml-12 mt-8"
+              src="img/Rectangle 5384.png"
+              alt=""
+            />
+
+            <div
+              class="border-t-8 border-r-8 border-white bg-[#E24413] text-white p-2 w-[340px] flex ml-12 absolute top-80 h-[120px]"
+            >
+              <p class="p-2 text-[14px]">
+                Mimari Harikalar: Dünyanın En Etkileyici İnşaat Projeleri Ve
+                Yapıları
+              </p>
+              <button class="bg-[#FF6A3D] p-4 ml-8 w-[120px] h-[60px] my-auto">
+                İncele
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-[350px] ml-36 mt-8"
+              src="img/Rectangle 5385.png"
+              alt=""
+            />
+            <div
+              class="border-t-8 border-r-8 border-white bg-[#f1f1f1] text-gray-500 p-2 w-[340px] flex ml-32 absolute top-80 h-[120px]"
+            >
+              <p class="p-2 text-[14px]">
+                Sürdürülebilir ve Yeşil İnşaat Teknolojileri: Geleceğin Yapıları
+              </p>
+              <button
+                class="bg-gray p-4 ml-8 w-[120px] h-[60px] my-auto border border-1 border-gray-400"
+              >
+                İncele
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-[350px] h-[320px] ml-24 mt-8"
+              src="img/Rectangle 5386.png"
+              alt=""
+            />
+            <div
+              class="border-t-8 border-r-8 border-white bg-[#f1f1f1] text-gray-500 p-2 w-[340px] flex ml-20 absolute top-80 h-[120px]"
+            >
+              <p class="p-2 text-[14px]">
+                Sürdürülebilir ve Yeşil İnşaat Teknolojileri: Geleceğin Yapıları
+              </p>
+              <button
+                class="bg-gray p-4 ml-8 w-[120px] h-[60px] my-auto border border-1 border-gray-400"
+              >
+                İncele
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#1e1e1e]">
+      <div class="flex">
+        <div class="h-[200px] flex ml-32 mt-8">
+          <img
+            class="w-[120px] h-[120px] my-auto"
+            src="img/Group 196311.png"
+            alt=""
+          />
+          <img
+            class="w-[120px] h-[120px] my-auto ml-8 border border-1 border-gray-700"
+            src="img/Group 196066.png"
+            alt=""
+          />
+          <img
+            class="w-[120px] h-[120px] my-auto ml-8 border border-1 border-gray-700"
+            src="img/Group 196088.png"
+            alt=""
+          />
+        </div>
+
+        <h2
+          class="text-5xl text-[#E24413] text-transparent bg-clip-text bg-gradient-to-r from-[#E24413] to-[#FFB76F] my-auto text-right ml-36"
+        >
+          Kalitede Belgeli,<br />
+          Güvenle İnşa Ediyoruz
+        </h2>
+
+        <img class="ml-auto" src="img/Group 195644.png" alt="" />
+      </div>
+
+      <div
+        class="flex justify-between mx-[120px] mb-24 pb-16 border-b-2 border-zinc-700"
+      >
+        <div>
+          <ul>
+            <li class="text-[#E24413] text-xl mb-4">Kurumsal</li>
+            <li class="text-[#E24413] mb-3"><a href="#">Hakkımızda</a></li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Misyon Vizyon</a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Multipurpose Fields</a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Tennis Courts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="text-white text-xl mb-4">Projeler</li>
+            <li class="text-white mb-3"><a href="#">Radisson Blue Hotel</a></li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Marriott Hotel Kapadokya </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Mangane Apart Rezidans </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Marriott Hotel Kapadokya</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex">
+            <img class="mx-auto" src="img/pngwing 1.png" alt="" />
+          </div>
+
+          <div class="flex mt-12">
+            <div class="bg-[#E24413] p-3 ml-2">
+              <img src="img/faceboook.png" alt="" />
+            </div>
+            <div class="bg-gray-700 p-3 ml-2">
+              <img src="img/youtube.png" alt="" />
+            </div>
+            <div class="bg-gray-700 p-3 ml-2">
+              <img src="img/linkedinğ.png" alt="" />
+            </div>
+            <div class="bg-gray-700 p-3 ml-2">
+              <img src="img/twitter.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li class="text-white text-xl mb-4">Aktiviteler</li>
+            <li class="text-white mb-2"><a href="#">Kategori 1</a></li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Kategori 2 </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Kategori 3 </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Kategori 4</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="text-white text-xl mb-4">Politikalar</li>
+            <li class="text-white mb-3"><a href="#">Kalite Politikamız</a></li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Gizlilik Politikamız </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">Aydınlatma Metni </a>
+            </li>
+            <li class="text-white text-base mb-3">
+              <a href="#">KVKK</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between mx-[120px] border-b-2 border-black pb-24"
+      >
+        <div class="border border-2 border-[#E24413] p-8">
+          <ul>
+            <li class="text-[#E24413] text-xl mb-6">Merkez Ofis</li>
+            <li class="text-white mb-6 flex">
+              <span><img class="mr-4" src="img/telefon.png" alt="" /></span>
+              <p>+90 (216) 455 55 55</p>
+            </li>
+            <li class="text-white text-base mb-6 flex">
+              <img class="mr-4" src="img/Group 41866.png" alt="" />
+              <a href="#">info@mail.com</a>
+            </li>
+            <li class="text-white text-base mb-4 flex">
+              <img class="mr-4" src="img/location.png" alt="" />
+              <a href="#">Orta Mah. Kartal/İstanbul</a>
+            </li>
+          </ul>
+        </div>
+        <div class="p-8 border-r-2 border-zinc-700">
+          <ul>
+            <li class="text-white font-bold text-xl mb-6">Benin Ofisi</li>
+            <li class="text-white mb-6 flex">
+              <span><img class="mr-4" src="img/telefon.png" alt="" /></span>
+              <p>+90 (216) 455 55 55</p>
+            </li>
+            <li class="text-white text-base mb-6 flex">
+              <img class="mr-4" src="img/Group 41866.png" alt="" />
+              <a href="#">info@mail.com</a>
+            </li>
+            <li class="text-white text-base mb-4 flex">
+              <img class="mr-4" src="img/location.png" alt="" />
+              <a href="#">Orta Mah. Kartal/İstanbul</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-8 border-r-2 border-zinc-700">
+          <ul>
+            <li class="text-white font-bold text-xl mb-6">Mali Ofisi</li>
+            <li class="text-white mb-6 flex">
+              <span><img class="mr-4" src="img/telefon.png" alt="" /></span>
+              <p>+90 (216) 455 55 55</p>
+            </li>
+            <li class="text-white text-base mb-6 flex">
+              <img class="mr-4" src="img/Group 41866.png" alt="" />
+              <a href="#">info@mail.com</a>
+            </li>
+            <li class="text-white text-base mb-4 flex">
+              <img class="mr-4" src="img/location.png" alt="" />
+              <a href="#">Orta Mah. Kartal/İstanbul</a>
+            </li>
+          </ul>
+        </div>
+        <div class="p-8">
+          <ul>
+            <li class="text-white font-bold text-xl mb-6">Katar Ofisi</li>
+            <li class="text-white mb-6 flex">
+              <span><img class="mr-4" src="img/telefon.png" alt="" /></span>
+              <p>+90 (216) 455 55 55</p>
+            </li>
+            <li class="text-white text-base mb-6 flex">
+              <img class="mr-4" src="img/Group 41866.png" alt="" />
+              <a href="#">info@mail.com</a>
+            </li>
+            <li class="text-white text-base mb-4 flex">
+              <img class="mr-4" src="img/location.png" alt="" />
+              <a href="#">Orta Mah. Kartal/İstanbul</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mx-[40px]">
+        <p class="text-white ml-20">© 2023 firma.com | Tüm Hakları Saklıdır.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
